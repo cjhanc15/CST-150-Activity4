@@ -53,7 +53,7 @@
             // conversionLabel
             // 
             this.conversionLabel.AutoSize = true;
-            this.conversionLabel.Location = new System.Drawing.Point(169, 198);
+            this.conversionLabel.Location = new System.Drawing.Point(40, 200);
             this.conversionLabel.Name = "conversionLabel";
             this.conversionLabel.Size = new System.Drawing.Size(18, 25);
             this.conversionLabel.TabIndex = 2;

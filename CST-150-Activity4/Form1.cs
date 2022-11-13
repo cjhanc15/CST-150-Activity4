@@ -38,7 +38,7 @@ namespace CST_150_Activity4
                 }
                 else
                 {
-                    if(seconds < 868400)
+                    if(seconds < 86400)
                     {//if seconds is less than 1 day, print the number of hours, minutes and seconds
                         int hours = seconds / 3600;
                         int minutes = (seconds % 3600)/60;
@@ -47,11 +47,11 @@ namespace CST_150_Activity4
                     } 
                     else
                     {//print days, hours, minutes, seconds
-                        int days = seconds / 868400;
-                        int hours = (seconds % 868400) / 3600;
-                        int minutes = ((seconds % 868400) % 3600)/60;
+                        int days = seconds / 86400;
+                        int hours = (seconds % 86400) / 3600;
+                        int minutes = ((seconds % 86400) % 3600)/60;
                         int remainingSeconds = ((seconds % 868400) % 3600) % 60;                       
-                        conversionLabel.Text = "greater than one day";
+                        conversionLabel.Text = days.ToString() + " days, " + hours.ToString() + " hours, " + minutes.ToString() + " minutes, " + remainingSeconds.ToString() + " seconds";
 
                     }
 
