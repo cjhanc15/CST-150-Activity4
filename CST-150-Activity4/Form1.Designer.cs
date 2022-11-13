@@ -64,7 +64,7 @@
             // 
             this.conversionButton.Location = new System.Drawing.Point(174, 131);
             this.conversionButton.Name = "conversionButton";
-            this.conversionButton.Size = new System.Drawing.Size(99, 48);
+            this.conversionButton.Size = new System.Drawing.Size(116, 48);
             this.conversionButton.TabIndex = 3;
             this.conversionButton.Text = "Convert";
             this.conversionButton.UseVisualStyleBackColor = true;
