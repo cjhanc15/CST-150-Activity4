@@ -38,7 +38,7 @@
             // 
             // TimeInSecondsLabel
             // 
-            this.TimeInSecondsLabel.AutoSize = true;
+            this.TimeInSecondsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TimeInSecondsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.TimeInSecondsLabel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.TimeInSecondsLabel.Location = new System.Drawing.Point(329, 350);
@@ -49,6 +49,7 @@
             // 
             // elapsedSeconds
             // 
+            this.elapsedSeconds.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.elapsedSeconds.BackColor = System.Drawing.SystemColors.MenuBar;
             this.elapsedSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.elapsedSeconds.Location = new System.Drawing.Point(810, 347);
@@ -58,17 +59,19 @@
             // 
             // conversionLabel
             // 
+            this.conversionLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.conversionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.conversionLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.conversionLabel.Location = new System.Drawing.Point(221, 699);
+            this.conversionLabel.Location = new System.Drawing.Point(-13, 699);
             this.conversionLabel.Name = "conversionLabel";
-            this.conversionLabel.Size = new System.Drawing.Size(976, 182);
+            this.conversionLabel.Size = new System.Drawing.Size(1471, 182);
             this.conversionLabel.TabIndex = 2;
             this.conversionLabel.Text = " ";
             this.conversionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // conversionButton
             // 
+            this.conversionButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.conversionButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.conversionButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.conversionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
@@ -86,9 +89,9 @@
             this.title.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.title.Font = new System.Drawing.Font("Lucida Sans Unicode", 25.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.title.Location = new System.Drawing.Point(-12, 139);
+            this.title.Location = new System.Drawing.Point(0, 130);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(1470, 81);
+            this.title.Size = new System.Drawing.Size(1458, 81);
             this.title.TabIndex = 4;
             this.title.Text = "Time Calculator";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
