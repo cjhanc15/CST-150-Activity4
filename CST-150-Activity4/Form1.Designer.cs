@@ -59,8 +59,8 @@
             // conversionLabel
             // 
             this.conversionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.conversionLabel.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.conversionLabel.Location = new System.Drawing.Point(245, 818);
+            this.conversionLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.conversionLabel.Location = new System.Drawing.Point(233, 732);
             this.conversionLabel.Name = "conversionLabel";
             this.conversionLabel.Size = new System.Drawing.Size(976, 182);
             this.conversionLabel.TabIndex = 2;
@@ -85,11 +85,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(455, 134);
+            this.label1.Location = new System.Drawing.Point(470, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(497, 76);
             this.label1.TabIndex = 4;
             this.label1.Text = "Time Calculator";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TimeCalculator
             // 
@@ -105,6 +106,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TimeCalculator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Time Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
