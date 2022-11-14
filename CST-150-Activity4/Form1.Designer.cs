@@ -73,7 +73,7 @@
             this.conversionButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.conversionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.conversionButton.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.conversionButton.Location = new System.Drawing.Point(544, 566);
+            this.conversionButton.Location = new System.Drawing.Point(542, 566);
             this.conversionButton.Name = "conversionButton";
             this.conversionButton.Size = new System.Drawing.Size(339, 87);
             this.conversionButton.TabIndex = 3;
@@ -83,12 +83,12 @@
             // 
             // title
             // 
-            this.title.AutoSize = true;
+            this.title.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.title.Font = new System.Drawing.Font("Lucida Sans Unicode", 25.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.title.Location = new System.Drawing.Point(452, 139);
+            this.title.Location = new System.Drawing.Point(-12, 139);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(559, 81);
+            this.title.Size = new System.Drawing.Size(1470, 81);
             this.title.TabIndex = 4;
             this.title.Text = "Time Calculator";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
