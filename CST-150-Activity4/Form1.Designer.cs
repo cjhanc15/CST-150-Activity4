@@ -72,7 +72,7 @@
             this.conversionButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.conversionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.conversionButton.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.conversionButton.Location = new System.Drawing.Point(545, 670);
+            this.conversionButton.Location = new System.Drawing.Point(545, 612);
             this.conversionButton.Name = "conversionButton";
             this.conversionButton.Size = new System.Drawing.Size(339, 87);
             this.conversionButton.TabIndex = 3;
